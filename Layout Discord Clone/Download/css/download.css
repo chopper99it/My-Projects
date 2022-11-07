@@ -1,0 +1,239 @@
+/*GLOBAL*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+.header {
+  background-color: #23272a;
+  height: 600px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+
+.header-container .logo-Discord {
+  color: #fff;
+  margin-top: 30px;
+}
+
+.header-container .btn-login {
+  margin-top: 30px;
+  width: 65px;
+  height: 35px;
+  border-radius: 30px;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.header-navBar {
+  margin-top: 40px;
+}
+
+.header-navBar ul {
+  display: flex;
+}
+
+.header-navBar li {
+  list-style: none;
+  padding: 0 20px;
+}
+
+.header-navBar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.header-navBar a:hover {
+  text-decoration: underline;
+}
+
+.header-carousel {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  padding: 100px;
+}
+
+.header-carousel-item-left {
+  margin-top: 30px;
+}
+
+.btn-download .btn-downWin2 {
+  border-radius: 30px;
+  background-color: #404eed;
+  border: none;
+  padding: 15px 15px;
+  width: 280px;
+  color: #fff;
+  margin: 30px 0 140px 0;
+  cursor: pointer;
+}
+
+.btn-download i {
+  padding-right: 10px;
+}
+
+.header-carousel-items h1 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.header-carousel-items p,
+span {
+  color: #fff;
+}
+
+.header-carousel-items span {
+  padding-left: 20px;
+}
+
+/* DOWNLOAD */
+.download {
+  width: 80%;
+  margin: auto;
+  margin-top: 200px;
+}
+
+.download-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.download-left-items {
+  margin-bottom: 100px;
+  background-color: #f6f6f6;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+}
+
+.download-left-item-top {
+  margin-bottom: 50px;
+}
+
+.download-left-item-top h3 {
+  padding-top: 50px;
+  margin-bottom: 10px;
+}
+
+.download-left-items h3 {
+  color: #23272a;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.download-left-items button {
+  background-color: #23272a;
+  color: #fff;
+  border-radius: 30px;
+  height: 50px;
+  width: 120px;
+  padding: 10px;
+  text-align: center;
+}
+
+.download-left-items .download-public {
+  height: 50px;
+  width: 250px;
+}
+
+.download-left-items .download-public i {
+  padding-left: 10px;
+}
+
+.download-public-item {
+  text-align: left;
+  padding: 20px;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #23272a;
+}
+
+.footer-container {
+  width: 80%;
+  margin: auto;
+  padding-top: 80px;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-top .title {
+  color: #404eed;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.footer-top img {
+  margin-top: 20px;
+  width: 25px;
+}
+
+.footer-top span {
+  color: rgb(201, 198, 198);
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.footer-top .socialMedia i {
+  margin-top: 20px;
+  color: #fff;
+  font-size: 18px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.footer-top .active {
+  color: #404eed;
+}
+
+.footer-top li {
+  list-style: none;
+  margin-bottom: 20px;
+  color: rgb(201, 198, 198);
+}
+
+.footer-top a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer-container .line {
+  border: 1px solid #404eed;
+  margin-top: 30px;
+}
+
+.footer-bottom {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-bottom .logo-Discord {
+  color: #fff;
+}
+
+.footer-bottom .btn-sign {
+  width: 75px;
+  height: 35px;
+  border-radius: 30px;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  color: #fff;
+  background-color: #404eed;
+}

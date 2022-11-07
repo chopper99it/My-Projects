@@ -1,0 +1,337 @@
+/*GLOBAL*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+.header {
+  background-color: #404eed;
+  height: 605px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+
+.header-container .logo-Discord-1 {
+  color: #fff;
+  margin-top: 30px;
+}
+
+.header-carousel-content {
+  position: absolute;
+  top: 100px;
+  left: 380px;
+}
+
+.header-carousel .imgClound {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  height: 550px;
+  width: 50px;
+}
+
+.carouselImg {
+  display: flex;
+  justify-content: space-between;
+  background-image: url(../img/carousel1.png);
+  background-size: cover;
+}
+
+.carouselImg .carousel1 {
+  margin-top: 206px;
+  margin-left: -160px;
+  width: 100%;
+}
+.carouselImg .carousel2 {
+  width: 100%;
+  margin-top: 233px;
+  margin-right: -200px;
+}
+
+.header-container .btn-login {
+  margin-top: 45px;
+  width: 65px;
+  height: 35px;
+  border-radius: 30px;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.header-logo img {
+  width: 120px;
+  cursor: pointer;
+}
+
+.header-navBar {
+  margin-top: 50px;
+}
+
+.header-navBar ul {
+  display: flex;
+}
+
+.header-navBar li {
+  list-style: none;
+  padding: 0 20px;
+}
+
+.header-navBar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.header-navBar a:hover {
+  text-decoration: underline;
+}
+
+.header-carousel-content {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.header-carousel-content h1,
+p,
+.btn-openBrowser {
+  color: #fff;
+}
+
+.header-carousel-content h1 {
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.header-carousel-content p {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.header-carousel-content button {
+  width: 300px;
+  border-radius: 41px;
+  border: none;
+  height: 60px;
+  font-size: 20px;
+  padding: 10px 15px;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.header-carousel-content .btn-downWin i {
+  padding-right: 10px;
+}
+
+.header-carousel-content .btn-openBrowser {
+  background-color: #000;
+}
+
+/* CONTENT */
+.content {
+  margin-top: 120px;
+}
+.wrap-items {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  margin-bottom: 200px;
+}
+
+.wrap-item-content {
+  margin-left: 50px;
+}
+
+.wrap-item-content h3 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.wrap-item-content p {
+  margin-top: 30px;
+  color: #23272a;
+  font-size: 28px;
+}
+
+.wrap-item-content .imgContent2 {
+  margin-left: 50px;
+}
+
+.wrap-items-2 {
+  background-color: #f6f6f6;
+  height: 600px;
+  margin-bottom: 200px;
+}
+
+.wrap-items-content {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  padding: 60px 0;
+}
+
+.wrap-item-intension {
+  margin-top: 50px;
+}
+
+.wrap-item-intension h3 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.wrap-item-intension p {
+  margin-top: 30px;
+  color: #23272a;
+  font-size: 28px;
+}
+
+/* ABOUT */
+.about {
+  background-color: #f6f6f6;
+}
+
+.about-container {
+  width: 70%;
+  margin: auto;
+}
+
+.about-content {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.about-content h2 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.about-content p {
+  color: #23272a;
+  padding: 30px 0 0 50px;
+}
+
+.about-container img {
+  margin-left: 120px;
+}
+
+.about-download {
+  text-align: center;
+  position: relative;
+}
+
+.carouselStar {
+  position: absolute;
+  top: 0;
+  left: 150px;
+}
+
+.about-download h3 {
+  font-size: 30px;
+}
+
+.about-download .btn-downWin2 {
+  border-radius: 30px;
+  background-color: #404eed;
+  border: none;
+  padding: 20px 20px;
+  width: 300px;
+  color: #fff;
+  margin: 30px 0 140px 0;
+  cursor: pointer;
+}
+
+.about-download i {
+  padding-right: 10px;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #23272a;
+}
+
+.footer-container {
+  width: 80%;
+  margin: auto;
+  padding-top: 80px;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-top .title {
+  color: #404eed;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.footer-top img {
+  margin-top: 20px;
+  width: 25px;
+}
+
+.footer-top span {
+  color: rgb(201, 198, 198);
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.footer-top .socialMedia i {
+  margin-top: 20px;
+  color: #fff;
+  font-size: 18px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.footer-top .active {
+  color: #404eed;
+}
+
+.footer-top li {
+  list-style: none;
+  margin-bottom: 20px;
+  color: rgb(201, 198, 198);
+}
+
+.footer-top a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer-container .line {
+  border: 1px solid #404eed;
+  margin-top: 30px;
+}
+
+.footer-bottom {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-bottom .logo-Discord {
+  color: #fff;
+}
+
+.footer-bottom .btn-sign {
+  width: 75px;
+  height: 35px;
+  border-radius: 30px;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  color: #fff;
+  background-color: #404eed;
+}

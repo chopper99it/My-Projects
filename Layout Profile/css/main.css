@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(244, 240, 240);
+}
+
+/* HEADER */
+.header-container {
+  background-color: #fff;
+  border-bottom-left-radius: 15%;
+  background-image: url(../img/desktop-form-background.svg);
+}
+
+.header-menu,
+.intro {
+  width: 80%;
+  margin: auto;
+}
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.header-menu h1 {
+  color: #021691;
+}
+
+.navbar,
+.nav-list {
+  display: flex;
+}
+
+.nav-list .nav-item {
+  list-style: none;
+  padding-right: 50px;
+  line-height: 42px;
+}
+
+.nav-item .nav-link {
+  color: #021691;
+  text-decoration: none;
+}
+
+.intro {
+  margin-top: 70px;
+}
+
+.intro .intro-content {
+  width: 70%;
+  margin-left: 140px;
+}
+
+.intro img {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.intro .title {
+  font-size: 40px;
+  color: #021691;
+  margin-bottom: 20px;
+}
+
+.intro p {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.socialMedia i {
+  font-size: 20px;
+  padding-right: 20px;
+  color: #333;
+  margin-bottom: 60px;
+}
+
+/*NEWS*/
+.news {
+  margin-top: 50px;
+}
+
+.news-content {
+  width: 90%;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 100px;
+}
+
+.news-item1 {
+  display: flex;
+  margin: 20px;
+  padding-top: 50px;
+}
+
+.news-item1 img {
+  padding: 20px;
+}
+
+.news-item-textBox {
+  margin: 139px;
+}
+
+.news-item-textBox h3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.news-item-textBox p {
+  margin-top: 10px;
+  color: rgb(69, 69, 69);
+}
+
+.news-item-textBox h3,
+p {
+  margin-bottom: 20px;
+}
+
+.news-item-textBox ul {
+  display: flex;
+}
+
+.news-item-textBox li {
+  list-style: none;
+}
+
+.news-item-textBox li i {
+  color: green;
+  font-size: 10px;
+  padding: 0 8px;
+}
+
+.news-item-textBox .btn-group {
+  background-color: #c6e0f7;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.news-item-textBox .btn-see {
+  display: block;
+  background-color: #fff;
+  border: 1px solid #021691;
+  border-radius: 5px;
+  padding: 15px 20px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+/* ABOUT */
+.about {
+  background-color: #fff;
+}
+.about-content {
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+
+.about-content-left,
+.about-content-right {
+  margin: 50px 0;
+}
+
+.about-content-left {
+  width: 50%;
+}
+
+.about-content-left h3,
+p,
+.about-socialMedia {
+  margin-bottom: 20px;
+}
+
+.about-content-left h3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.about-content-left p {
+  font-size: 20px;
+  color: #333;
+}
+
+.about-content-left .btn-get {
+  background-color: #fff;
+  border: 1px solid #021691;
+  border-radius: 5px;
+  padding: 15px 20px;
+  color: #021691;
+  cursor: pointer;
+}
+
+.about-socialMedia i {
+  font-size: 20px;
+  padding-right: 20px;
+  color: #333;
+}
+
+.about .about-content-right {
+  margin-left: 50px;
+}
+
+.languages {
+  display: flex;
+  margin: 10px 0 20px 0;
+}
+
+.languages-items {
+  background-color: rgb(238, 234, 234);
+  width: 120px;
+  margin-right: 10px;
+}
+
+.languages-content {
+  margin: 10px 0 0 10px;
+}
+
+.languages-content p {
+  margin-top: 10px;
+}
+
+.line {
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #fff;
+}
+.footer-container {
+  background-color: #6475e6;
+  background-image: url(../img/footer-desktop.png);
+  height: 800px;
+  border-top-left-radius: 15%;
+}
+
+.form-contact-top,
+.form-contact-bottom {
+  text-align: center;
+}
+
+.form-contact-top {
+  margin-bottom: 50px;
+}
+
+.form-contact-top h3,
+p {
+  color: #fff;
+}
+
+.form-contact-top h3 {
+  font-size: 40px;
+}
+
+.form-contact-top p {
+  font-size: 20px;
+}
+
+.form-contact-top {
+  padding-top: 200px;
+}
+
+.form-contact-bottom .input-group {
+  display: block;
+  margin-left: 40%;
+  margin-bottom: 20px;
+  width: 350px;
+  height: 50px;
+}
+
+.form-contact-bottom .textarea {
+  margin-left: 46px;
+  width: 346.5px;
+}
+
+.form-contact-bottom button {
+  background-color: #fff;
+  color: #6475e6;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.form-contact-bottom .btn-getInTouch {
+  width: 120px;
+  margin-right: 20px;
+}
