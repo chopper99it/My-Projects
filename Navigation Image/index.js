@@ -53,4 +53,3 @@ function clickLeft() {
   showLeftImage();
 }
 startSlide();
-// reset();
